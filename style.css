@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* background-color: #5252c5; */
+    background-image:url(back.jpg);
+	background-repeat: no-repeat;
+	background-size:auto;
+	color: #fff;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+}
+
+#display{
+	padding:auto;
+    margin-bottom:40px;
+	text-align: center;
+	font-size:medium;
+	color:#fff;
+	font-weight: 800;
+	background-color: #3B3B98;
+	font-family: 'Muli', sans-serif;
+	word-spacing: 1px;
+}
+
+p {
+	margin: 5px 0;
+}
+
+h2 {
+	margin: 10px 0 20px;
+	text-align: center;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+.showNum{
+	height: auto;
+	width: 30px;
+	text-align: center;
+	border: 1px solid #23235B;
+}
+
+.container {
+	background-color: #23235B;
+	/* box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2); */
+	padding: 20px;
+	width: 350px;
+	max-width: 100%;
+	border-radius: 3%;
+}
+
+.result-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 3%;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+
+.result-container .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 40px;
+}
+
+.btn {
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 8px 12px;
+	background-color: #3B3B98;
+	border-radius: 3%;
+}
+
+.btn-large {
+	display: block;
+	width: 100%;
+	border-radius: 3%;
+}
+
+.btn-large:hover{
+	background-color: #19195f;
+}
+
+.btn:hover{
+	background-color: #19195f;
+
+}
+
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+
+@media screen and (max-width: 400px) {
+	.result-container {
+		font-size: 14px;
+	}
+}
+
